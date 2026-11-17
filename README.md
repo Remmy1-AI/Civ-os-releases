@@ -6,11 +6,33 @@
 
 Civ is an AI operating system with its own private cloud computer. You sign in to your accounts once — trading, betting, banking, payments, socials — and Civ works inside them for you: tracks your money, builds the tools and systems that grow it, and handles the grind while you make the calls. It reports to you, confirms anything irreversible, and gives flagship power at a fair flat price instead of big-tech markups.
 
-**Coming soon:** the private cloud computer, account sign-in, and Civ Cloud. Today's release is an early personal-use build: laptop install on an Ubuntu base. It boots into Civ's typography session where you type a request. A MiniMax model key is needed for AI.
+**Coming soon:** the private cloud computer, account sign-in, and Civ Cloud. Today's public assets are early personal-use laptop builds on an Ubuntu base (Wayfire + Civ shell). A MiniMax model key is needed for AI.
 
-## What's in this release
+## Latest laptop update
 
-**[civ-finish-v0.1.0](/releases/latest)**
+**[civ-update-v0.1.32](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.32)** ← current `/releases/latest` for auto-update
+
+| File | Notes |
+|------|--------|
+| `civ-bundle.tgz` | Signed update payload |
+| `civ-bundle.tgz.minisig` | minisign signature |
+
+Verify with the pubkey already on the laptop (`/etc/civ-os/update-pubkey.pub`). **Assets only** — no private keys, no secrets, no private-repo sources.
+
+### Recent update tags
+
+| Tag | Highlights |
+|-----|------------|
+| [0.1.32](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.32) | Workarea maximize (no exclusive-zone strut); dock full-bleed; Drop LAN |
+| [0.1.31](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.31) | Drop QR transfer; dark glass terminal |
+| [0.1.30](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.30) | Glass terminal title bar; maximize above dock |
+| [0.1.29](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.29) | Polkit Updates + honest progress; touchpad Settings |
+| [0.1.28](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.28) | Minimize all soft-GL apps; dock restore |
+| [0.1.27](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.27) | Window dots right + hover; Wayland drag; wallpaper only in Settings |
+
+## Full disk image (Windows setup)
+
+**[civ-finish-v0.1.0](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-finish-v0.1.0)** (install-from-Windows path; separate from signed laptop updates)
 
 | File | Notes |
 |------|--------|
@@ -18,16 +40,16 @@ Civ is an AI operating system with its own private cloud computer. You sign in t
 | `civ-finish.iso` | ~1.8 GB system image |
 | `SHA256SUMS` | Checksums for both |
 
-## Install on Windows
+## Install on Windows (full image)
 
-1. Download **CivOS-Setup.exe** from the [latest release](/releases/latest).
+1. Download **CivOS-Setup.exe** from the [civ-finish release](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-finish-v0.1.0).
 2. If SmartScreen appears: **More info** → **Run anyway**.
 3. Approve the admin prompt.
 4. The wizard installs to the **whole disk**.
 
 > **Warning:** This erases the **entire disk**, including Windows. Back up first. Turn BitLocker off. Plug in power. Use Wi-Fi. Secure Boot is supported.
 
-## Verify checksums
+## Verify checksums (full image)
 
 In PowerShell, from the folder with your downloads:
 
@@ -40,9 +62,9 @@ Compare the hashes to the values in `SHA256SUMS` from the same release.
 
 ## Status / roadmap
 
-**Now** — Laptop personal-use build (Ubuntu base; typography session; MiniMax key for AI).
+**Now** — Laptop personal-use builds with signed auto-updates (Wayfire shell, Settings, Terminal, Drop).
 
-**Next** — Auto-updates; Civ Cloud with Civ ID; private cloud computer for account sign-ins.
+**Next** — Civ Cloud with Civ ID; private cloud computer for account sign-ins.
 
 ## Disclaimer
 
