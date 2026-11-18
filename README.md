@@ -10,7 +10,7 @@ Civ is an AI operating system with its own private cloud computer. You sign in t
 
 ## Latest laptop update
 
-**[civ-update-v0.1.33](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.33)** ← current `/releases/latest` for auto-update
+**[civ-update-v0.1.34](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.34)** ← current `/releases/latest` for auto-update
 
 | File | Notes |
 |------|--------|
@@ -23,6 +23,7 @@ Verify with the pubkey already on the laptop (`/etc/civ-os/update-pubkey.pub`). 
 
 | Tag | Highlights |
 |-----|------------|
+| [0.1.34](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.34) | Files This laptop + storage; Drop expiry / New code |
 | [0.1.33](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.33) | Civ Files v1; Drop Received → Files; files.* caps; term title align |
 | [0.1.32](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.32) | Workarea maximize (no exclusive-zone strut); dock full-bleed; Drop LAN |
 | [0.1.31](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.31) | Drop QR transfer; dark glass terminal |
