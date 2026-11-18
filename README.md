@@ -6,11 +6,11 @@
 
 Civ is an AI operating system with its own private cloud computer. You sign in to your accounts once — trading, betting, banking, payments, socials — and Civ works inside them for you: tracks your money, builds the tools and systems that grow it, and handles the grind while you make the calls. It reports to you, confirms anything irreversible, and gives flagship power at a fair flat price instead of big-tech markups.
 
-**Coming soon:** the private cloud computer, account sign-in, and Civ Cloud. Today's public assets are early personal-use laptop builds on an Ubuntu base (Wayfire + Civ shell). A MiniMax model key is needed for AI.
+**Coming soon:** the private cloud computer, account sign-in, and Civ Cloud. Today's public assets are early personal-use laptop builds on an Ubuntu base (Wayfire + Civ shell). AI works with a free Groq or Gemini key, MiniMax, or an on-device Qwen model.
 
 ## Latest laptop update
 
-**[civ-update-v0.1.35](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.35)** ← current `/releases/latest` for auto-update
+**[civ-update-v0.1.36](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.36)** ← current `/releases/latest` for auto-update
 
 | File | Notes |
 |------|--------|
@@ -23,6 +23,7 @@ Verify with the pubkey already on the laptop (`/etc/civ-os/update-pubkey.pub`). 
 
 | Tag | Highlights |
 |-----|------------|
+| [0.1.36](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.36) | Brain router (Groq / Gemini / custom / MiniMax / local Qwen); GitHub, Notion, Telegram connectors |
 | [0.1.35](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.35) | PDF viewer + Civ Media (mpv) + unknown card |
 | [0.1.34](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.34) | Files This laptop + storage; Drop expiry / New code |
 | [0.1.33](https://github.com/Remmy1-AI/Civ-os-releases/releases/tag/civ-update-v0.1.33) | Civ Files v1; Drop Received → Files; files.* caps; term title align |
