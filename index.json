@@ -1,0 +1,29 @@
+{
+  "updated": "2026-11-21",
+  "apps": [
+    {
+      "id": "civ.units",
+      "name": "Unit converter",
+      "version": "1.0.0",
+      "kind": "extension",
+      "author": "Civ",
+      "summary": "Convert length, mass, temperature, volume, speed, area, and data units in conversation.",
+      "permissions": [],
+      "url": "https://github.com/Remmy1-AI/Civ-os-releases/releases/download/civ-update-v0.1.42/civ-units.civ",
+      "sha256": "9c418e99d0b8f4b708a4540d326c0cd8948e0b34b89e57b43123901ab8b1eb34"
+    },
+    {
+      "id": "civ.prices",
+      "name": "Price check",
+      "version": "1.0.0",
+      "kind": "extension",
+      "author": "Civ",
+      "summary": "Check crypto and forex prices from public sources (CoinGecko and Frankfurter).",
+      "permissions": [
+        "network"
+      ],
+      "url": "https://github.com/Remmy1-AI/Civ-os-releases/releases/download/civ-update-v0.1.42/civ-prices.civ",
+      "sha256": "27e8393ec8d9a8fc97c69d284fc9da57e5831e1f2db3921666e4250bc5721756"
+    }
+  ]
+}
